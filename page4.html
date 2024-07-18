@@ -1,0 +1,120 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<title>GeoScope🌍</title>
+<!--font awesome cdn-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!--link css file-->
+<link href="page4.css" rel="stylesheet">
+</head>  
+
+<body>  
+<!--navbar-->
+<header>
+    <ul>  
+        <li><a class="#" href="index.html"><i class="fa-solid fa-house"></i></a></li> <!--font awesome--><!--home-->
+        <li><a href="page1.html"><i class="fa-solid fa-list-ol"></i>  Index</a></li><!--index-->
+        <li><a class="#"href="https://clixplatform.tiss.edu/softwares/Tools/Solar_System_Animation/en/"><i class="fa-solid fa-earth-americas"></i></a></li><!--google earth--> 
+        <li><a href="https://earth.google.com/web/@68.40533957,-45.26725289,-458.73856128a,13456402.40315437d,35y,11.56020886h,0t,0r/data=OgMKATA"><i class="fa-solid fa-location-crosshairs"></i></a></li><!--location--> 
+    </ul>  
+    <!----------------------------------------------------------------------->
+    <!--sidebar-->
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; History of Cartography</span>
+      <hr>
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a><b>Maps & Mapping</b></a>
+        <a href="page2.html">History of Cartography</a>
+        <a href="page3.html">Modern Cartography</a>
+        <a href="page4.css">Map Projections</a>
+        <a href="page5.html">Symbols & Shades</a>
+    </div>
+    
+    
+    <script>
+    function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    }
+    
+    function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    }
+    </script>
+    </header>
+    <!----------------------------------------------------------------------->
+
+<div>
+
+    <main>
+        <h1 class="heading">Map Projections</h1>
+        <p class="p">
+            A map projection is a systematic and orderly drawing
+            of a grid of parallels of latitude and meridians of 
+            longitude used to represent the spherical surface of the earth,
+            or a part of it, on a reduced scale on a flat piece of paper.
+            It is not possible to make a map 
+            (of the world or of any part of it) 
+            that is accurate in area, shape, distance and direction.
+            Every map is distorted in at least one of these aspects.
+          </p>
+          
+          <aside class="aside_right">
+           <h1>Types of Maps</h1>
+           <img src="maps.png">
+       </aside>
+           
+          <h1>Physical Relief: Representation of the Earth's Surface</h1>
+          <p class="p">
+           One of the challenges of map-making is to adequately represent the physical 
+           relief of any region i.e. the delineation of hills and plains, the distinguishing
+            of high ground and low ground. The two methods generally used to represent physical
+             relief are hill- shading and contour lines, each of which may be treated in a variety 
+             of ways and are sometimes combined. Figure 1 shows a mountainous island with the hill 
+             slopes indicated by a method of hill-shading called 'hachures' (lines indicating the direction 
+             of the slope). Figure 2 shows the same island with the hills indicated by contour lines.
+              The principle of showing elevation by contour lines can be seen by comparing Figure 3
+              with the profile section in figure2.
+              <div class="flex-container">
+                <div class="item1"><img  src="img1.jpeg"></div>
+              </div>
+          </p>
+    </main>
+      
+<!--pagination-->
+<div>
+    <ul class="pagination">
+        <li>
+            <a href="page3.html">Prev</a>
+        </li>
+        <li>
+            <a href="page2.html">1</a>
+        </li>
+        <li>
+            <a href="page3.html">2</a>
+        </li>
+        <li>
+            <a href="#">3</a>
+        </li>
+        <li>
+            <a href="page5.html">4</a>
+        </li>
+        <li>
+            <a href="page5.html">Next</a>
+        </li>
+    </ul>
+</div>
+
+<!--footer--> 
+<!--ADD FONTAWESOME KIT-->
+<footer>
+    <p class="pfooter">&copy; 2024 GeoScope. All rights reserved.</p>
+    <div class="social-links">
+    <a href="https://www.linkedin.com/in/irfan-oddin-06220a271/"><i id="i" class="fa-brands fa-linkedin"></i></a>
+    <a href="#"><i id="i" class="fa-brands fa-github"></i></a>
+    <a href="https://www.instagram.com/___.i.r.f.a.n.___/"><i id="i" class="fa-brands fa-instagram"></i></a>
+    <a href="https://mail.google.com/mail/u/0/#advanced-search/to=Mohdirfanoddin%40gmail.com&query=in%3Asent&isrefinement=true&todisplay=Irfan+oddin"><i id="i" class="fa-solid fa-envelope"></i></a>
+    </div>
+    </footer>
+  <!--------------------------------------------------------------------------------->
+</body>  
+</html>

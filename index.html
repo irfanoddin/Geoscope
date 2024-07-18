@@ -1,0 +1,68 @@
+
+<html>
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="index.css" rel="stylesheet">
+    <title>GeoScope🌍</title>
+  </head>
+<body>
+  <!--side navbar-->
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.html"><i class="fa-solid fa-house"></i> Home</a> <!--font awesome--><!--home-->
+    <a href="page1.html"><i class="fa-solid fa-list-ol"></i>  Index</a><!--index-->
+    <a href="https://clixplatform.tiss.edu/softwares/Tools/Solar_System_Animation/en/"><i class="fa-solid fa-earth-americas"></i> Solar System</a><!--google earth--> 
+    <a href="https://earth.google.com/web/@68.40533957,-45.26725289,-458.73856128a,13456402.40315437d,35y,11.56020886h,0t,0r/data=OgMKATA"><i class="fa-solid fa-location-crosshairs"></i> Navigate</a><!--location-->  
+  </div>
+  
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+  
+  <script>
+  function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  }
+      
+  function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  }
+  </script>
+  <!--------------------------------------------------------------------------------->
+
+  <!--heading-->
+  <h1 class="heading">GeoScope</h1> 
+  <!--------------------------------------------------------------------------------->
+
+   <!--box-->
+  <div class="container">
+    <div class="card">
+      <h1 class="title">Designed For learning</h1>
+      <p class="subtitle">
+      Welcome to GeoScope<br> 
+      Your Atlas Reimagined Ever felt the thrill of flipping through a dusty atlas, 
+      getting lost in the labyrinth of continents and the whispers of faraway lands? 
+      Geoscope captures that very essence, but with a modern twist. We're your portal to a 
+      world of exploration, where knowledge unfolds like a meticulously crafted map.
+    </p>
+    
+    <a href="page1.html"><button class="btn">Get Started</button></a>
+  </div>
+  <!--background blob-->
+  <div class="blob"></div>
+<!--------------------------------------------------------------------------------->
+</div>
+<!--------------------------------------------------------------------------------->
+
+<!--footer--> 
+<!--ADD FONTAWESOME KIT-->
+<footer>
+  <p>&copy; 2024 GeoScope. All rights reserved.</p>
+  <div class="social-links">
+  <a href="https://www.linkedin.com/in/irfan-oddin-06220a271/"><i id="i" class="fa-brands fa-linkedin"></i></a>
+  <a href="#"><i id="i" class="fa-brands fa-github"></i></a>
+  <a href="https://www.instagram.com/___.i.r.f.a.n.___/"><i id="i" class="fa-brands fa-instagram"></i></a>
+  <a href="https://mail.google.com/mail/u/0/#advanced-search/to=Mohdirfanoddin%40gmail.com&query=in%3Asent&isrefinement=true&todisplay=Irfan+oddin"><i id="i" class="fa-solid fa-envelope"></i></a>
+  </div>
+  </footer>
+<!--------------------------------------------------------------------------------->
+  </body>
+</html>

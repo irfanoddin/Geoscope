@@ -1,0 +1,277 @@
+/*body*/
+body{
+    margin: 0px;
+    background-image:radial-gradient( rgba(0, 0, 0, 0.75), rgba(0,0,0, 0.75)),url('earth.jpg');
+    height: ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: "Nunito", sans-serif;
+    }
+    /*-------------------------------------------------------------------------------------------*/
+    /*navbar*/
+    ul {  
+      list-style-type: none;  
+      position: sticky;  
+      width:100%;  
+      top:0;  
+      margin:0px;  
+      padding: 0px;  
+      overflow: hidden;  
+    background: radial-gradient(circle at 50.3% 44.5%, rgb(116, 147, 179) 0%, rgb(62, 83, 104) 100.2%);
+    }  
+      
+    li {  
+      float: left;  
+        border-right: 1px inset black;  
+    }  
+      
+    li a {  
+      display: block;  
+      color: black;  
+     font-size:25px;  
+      text-align: center;  
+      padding: 10px 20px;  
+      text-decoration: none;  
+    }  
+    
+    li a:hover {  
+      background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+        color: blue;  
+    }  
+    /*-----------------------------------------------------------------------*/
+    /*heading*/
+    h1{
+      color:#E0FFFF;
+      font-size: 100px;
+      margin: 10px;
+      text-align: center;
+    }
+    /*---------------------------------------------------------------------*/
+  
+  /*cards*/
+
+  a{
+    text-decoration: none;
+    color: black;
+  }
+        .cards {
+    display: flex;
+    gap: 15px;
+  place-content: center;
+  }
+  /*row 1*/
+  .cards .one11 {
+    background: linear-gradient(90deg, rgba(241,5,53,0.7681197478991597) 0%, rgba(168,70,238,0.8045343137254902) 100%);
+  }
+  
+  .cards .two12{
+    background: linear-gradient(90deg, rgba(168,70,238,0.8045343137254902) 0%, rgba(5,241,230,0.7681197478991597) 100%);
+  }
+  
+  .cards .three13 {
+    background: linear-gradient(90deg,  rgba(5,241,230,0.7681197478991597) 0%, rgba(168,70,238,0.8045343137254902) 100%);
+  }
+  
+  .cards .four14 {
+    background: linear-gradient(90deg, rgba(168,70,238,0.8045343137254902) 0%, rgba(241,5,53,0.7681197478991597) 100%);
+  }
+  /*------------------------------------------------------------------*/
+  
+  /*row 2*/
+  .cards .one21 {
+    background: linear-gradient(90deg, rgba(241,5,53,0.7681197478991597) 0%, rgba(168,70,238,0.8045343137254902) 100%);
+  }
+  
+  .cards .two22{
+    background: linear-gradient(90deg, rgba(168,70,238,0.8045343137254902) 0%, rgba(5,241,230,0.7681197478991597) 100%);
+  }
+  
+  .cards .three23 {
+    background: linear-gradient(90deg,  rgba(5,241,230,0.7681197478991597) 0%, rgba(168,70,238,0.8045343137254902) 100%);
+  }
+  
+  .cards .four24 {
+    background: linear-gradient(90deg, rgba(168,70,238,0.8045343137254902) 0%, rgba(241,5,53,0.7681197478991597) 100%);
+  }
+  /*------------------------------------------------------------------*/
+  
+  /*row 3*/
+  .cards .one31 {
+    background: linear-gradient(90deg, rgba(241,5,53,0.7681197478991597) 0%, rgba(168,70,238,0.8045343137254902) 100%);
+  }
+  
+  .cards .two32{
+   background: linear-gradient(90deg, rgba(168,70,238,0.8045343137254902) 0%, rgba(5,241,230,0.7681197478991597) 100%);
+  }
+  
+  .cards .three33 {
+   background: linear-gradient(90deg,  rgba(5,241,230,0.7681197478991597) 0%, rgba(168,70,238,0.8045343137254902) 100%);
+  }
+  
+  .cards .four34 {
+    background: linear-gradient(90deg, rgba(168,70,238,0.8045343137254902) 0%, rgba(241,5,53,0.7681197478991597) 100%);
+  }
+  /*------------------------------------------------------------------*/
+  .cards .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100px;
+    width: 250px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    transition: 400ms transform, 400ms box-shadow, 400ms background-color;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 15px;
+  }
+  
+  .cards .card p.tip {
+    font-size: 1em;
+    font-weight: 700;
+  }
+  
+  .cards .card p.second-text {
+    font-size: 0.7em;
+  }
+  /*hover row 1*/
+  .cards .one11:hover {
+    color: black;
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+   background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWvirNXzBYnVmtXUeYIRDUGuGbNZ1ADERnlg&s');
+  background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+  
+  .cards .two12:hover {
+    color: black;
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+   background-image: url('https://assets-global.website-files.com/5ea8e5bda548bf7f231a5b81/5f0a21497c197727d80f8083_journey-of-the-universe-header2%20(upscale)%20(tpg).jpg');
+  background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+  .cards .three13:hover {
+    color: white;
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+   background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCo7_UnS_EBUsh4mcp8X9RTHHIcrLtr4n4aQ&s');
+  background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+  .cards .four14:hover {
+    color: white;
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+   background-image: url('https://thumbs.dreamstime.com/b/india-flag-space-indian-subcontinent-indian-national-planet-earth-viewed-highly-detailed-planet-surface-clouds-36789732.jpg');
+  background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  /*-------------------------------------------------------------------------------------------*/
+  /*hover row 2*/
+  .cards .one21:hover {
+    color: white;
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/370/608/909/background-earth-continents-world-map-hd-wallpaper-preview.jpg');
+  background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+  
+  .cards .two22:hover {
+    color: white;
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlRqpg1TJvgnNoYagEYNZDzSqZRQiEmmfJQA&s');
+  background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+  .cards .three23:hover {
+    color: white;
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    background-image:url('https://whc.unesco.org/uploads/thumbs/news_1507-890-520-20160614162548.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+  .cards .four24:hover {
+    color: white;
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    background-image: url('https://www.globalrescue.com/grcom/grmkt_resources/images/Media-blog-images/volcano-scaled.jpg');
+  background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  /*-------------------------------------------------------------------------------------------*/
+
+/*hover row 3*/
+.cards .one31:hover {
+  color: white;
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  background-image: url('https://www.snexplores.org/wp-content/uploads/2022/04/1440_SS_atmosphere_redo_feat-1030x580.jpg');
+background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+
+.cards .two32:hover {
+  color: white;
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+ background-image:url('https://www.livemint.com/lm-img/img/2023/10/14/1600x900/im-868197_1697263695383_1697263901526.jpg');
+background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.cards .three33:hover {
+  color: white;
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+ background-image: url('https://i.natgeofe.com/n/e86b0f2e-c5c6-457d-80d8-26962105b8c0/1118_square.jpg');
+background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.cards .four34:hover {
+  color: white;
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+ background-image: url('https://imageio.forbes.com/blogs-images/startswithabang/files/2018/01/1_2rjm7D41jIgVvGP__OL1wg.jpg?height=399&width=711&fit=bounds');
+background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+/*-------------------------------------------------------------------------------------------*/
+
+  .cards:hover > .card:not(:hover) {
+    filter: blur(10px);
+    transform: scale(0.9);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  /*------------------------------------------------------------------*/
+  .a{
+    color: white;
+  }
+ 
